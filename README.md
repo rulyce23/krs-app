@@ -6,7 +6,7 @@
 - File SQL Database
 
 ##NOTE : Jika Vendor Dan juga .envnya sudah ada pada repo ini,maka langkah selanjutnya tinggal menggunakan perintah ini : 
--  untuk db mysql buatkan dengan nama db krs_app
+-  untuk db mysql buatkan dengan nama "krs_app"
 -  kemudian jika sudah dibuat langsung buat tabel pada db krs_app dengan perintah ini -->  "php artisan migrate:fresh --seed" 
 -  jika perintah ini "php artisan migrate:fresh --seed" sudah dijalankan maka anda dapat menggunakan aplikasi krs SIMAK ini
 -  untuk usernamenya "admin" dan passwordnya adalah "admin123"
