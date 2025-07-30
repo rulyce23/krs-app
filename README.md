@@ -5,6 +5,16 @@
 - Dokumentasi Instalasi (README.md)
 - File SQL Database
 
+##NOTE : Jika Vendor Dan juga .envnya sudah ada pada repo ini,maka langkah selanjutnya tinggal menggunakan perintah ini : 
+-  untuk db mysql buatkan dengan nama db krs_app
+-  kemudian jika sudah dibuat langsung buat tabel pada db krs_app dengan perintah ini -->  "php artisan migrate:fresh --seed" 
+-  jika perintah ini "php artisan migrate:fresh --seed" sudah dijalankan maka anda dapat menggunakan aplikasi krs SIMAK ini
+-  untuk usernamenya "admin" dan passwordnya adalah "admin123"
+-  untuk koordinator sama usernamenya adalah "koordinator" dan passwordnya adalah "koordinator123"
+-  untuk mahasiswa menggunakan NIM "2021001" dan passwordnya adalah "student123"
+-  untuk mahasiswa lainnya cukup ganti kode angka belakangnya misalnya "2021001" menjadi "2021001" dan seterusnya dan seterusnya seperti itu
+-  Selamat Anda dapat mengakses dan menggunakan aplikasi saya
+
 ## Teknologi yang Digunakan
 - **Bahasa Pemrograman**: PHP dengan framework Laravel 12
 - **Database**: MySQL/SQLite
