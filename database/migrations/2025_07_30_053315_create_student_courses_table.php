@@ -21,7 +21,7 @@ return new class extends Migration
             $table->text('notes')->nullable();
             $table->timestamps();
             
-            $table->unique(['student_id', 'course_id', 'academic_year', 'semester']);
+            $table->unique(['student_id', 'course_id', 'academic_year', 'semester'], 'student_course_unique');
         });
     }
 
